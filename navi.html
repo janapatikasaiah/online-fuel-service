@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    {%include 'bootstrap.html'%}
+     </head>
+  <body>
+    <nav class="navbar bg-dark fixed-top">
+      <a style="color: aliceblue;" class="navbar-brand" href="https://iocl.com/pages/fuel-at-call">Fuel Management System</a>
+      <ul class="row">
+        <li  class="nav-item col">
+          <a style="color: aliceblue;"style="text-center" class="nav-link" href="https://www.bharatpetroleum.in/"> Home</a>
+        </li>
+        <li class="nav-iem col">
+          <a style="color: aliceblue;" class="nav-link" href="{{url_for('contact')}}"> Contact us</a>
+        </li>
+        <li class ="nav-item col">
+          <a  style="color:white;"class="nav-link" href="{{url_for('login')}}">login</a>
+        </li>
+      </ul>
+    </nav>
+   </body>
+</html>
